@@ -1,6 +1,6 @@
-# FotoFeed - Aplicativo de Compartilhamento de Fotos
+# FAKEPINTEREST - Aplicativo de Compartilhamento de Fotos
 
-FotoFeed é um aplicativo web desenvolvido com **Flask** e **SQLite** que permite aos usuários fazer login, criar contas, visualizar feeds de fotos e interagir com o conteúdo de outros usuários. O sistema também oferece a possibilidade de enviar fotos e realizar o download de imagens.
+FakePinterest é um aplicativo web desenvolvido com **Flask** e **SQLite** que permite aos usuários fazer login, criar contas, visualizar feeds de fotos e interagir com o conteúdo de outros usuários. O sistema também oferece a possibilidade de enviar fotos e realizar o download de imagens.
 
 ## Funcionalidades
 
