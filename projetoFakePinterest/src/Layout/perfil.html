@@ -1,0 +1,63 @@
+
+
+  <body>
+    <div class="container">
+      
+        <div class="bloco-add-img">
+          <h2>alondoido - Enviar foto</h2>
+
+          <div class="bloco-arquivo">
+            <label for="foto" class="botao-arquivo">
+              Escolher arquivo
+              <input
+                class="input-arquivo"
+                id="foto"
+                name="foto"
+                required=""
+                type="file"
+              />
+            </label>
+            <span id="imagem-arquivo" class=""></span>
+          </div>
+
+          <button class="botao-login">Enviar foto</button>
+        </div>
+    </div>
+
+      <div class="conteudo">
+        <div class="bloco-imagem">
+          <img src="img/pinterest-1.jpg" alt="Pinterest 1" />
+        </div>
+        <div class="bloco-imagem">
+          <img src="img/pinterest-2.jpg" alt="Pinterest 2" />
+        </div>
+        <div class="bloco-imagem">
+          <img src="img/pinterest-3.jpg" alt="Pinterest 3" />
+        </div>
+        <div class="bloco-imagem">
+          <img src="img/pinterest-4.jpg" alt="Pinterest 4" />
+        </div>
+        <div class="bloco-imagem">
+          <img src="img/pinterest-5.jpg" alt="Pinterest 5" />
+        </div>
+        <div class="bloco-imagem">
+          <img src="img/pinterest-6.jpg" alt="Pinterest 6" />
+        </div>
+        <div class="bloco-imagem">
+          <img src="img/pinterest-7.jpg" alt="Pinterest 7" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let input = document.getElementById("foto");
+      let imagemArquivo = document.getElementById("imagem-arquivo");
+
+      input.addEventListener("change", () => {
+        let inputImagem = document.querySelector("input[type=file]").files[0];
+
+        imagemArquivo.classList.add("visivel");
+        imagemArquivo.innerText = inputImagem.name;
+      });
+    </script>
+  </body>
